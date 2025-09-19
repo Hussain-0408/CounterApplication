@@ -6,7 +6,7 @@ import CounterClass from './components/CounterClass';
 
 function App() {
   return (
-    <div >
+    <div className='root-container' >
      < CounterFunctional />
      <CounterClass />
     </div>
