@@ -1,11 +1,25 @@
 .App {
-  text-align: center;
+   text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+
+
+.btn-group button:hover {
+  background: #2980b9;
+}
+
+.btn-group button:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

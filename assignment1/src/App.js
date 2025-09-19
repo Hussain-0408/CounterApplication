@@ -1,11 +1,14 @@
 
 import './App.css';
-import Increment from './components/Increment';
+import CounterFunctional from './components/CounterFunctional';
+import CounterClass from './components/CounterClass';
+
 
 function App() {
   return (
     <div >
-     <Increment />
+     < CounterFunctional />
+     <CounterClass />
     </div>
   );
 }
