@@ -19,7 +19,7 @@ const Decrement = ()=>{
     return (
         <div className="Main-container">
             <div className="counter-card">
-                <h1>Functional components</h1>
+                <h1>Functional Components</h1>
                 <div className="counter-display">{count}  </div>
                 <div className="counter-buttons">
                     <button onClick={Increment}>+</button>

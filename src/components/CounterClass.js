@@ -5,11 +5,11 @@ import '../styles/CounterClass.css'
 class CounterClass extends Component {
 
     constructor() {
-        super(); {
+        super(); 
             this.state = {
                 count: 0
             }
-        }
+        
     }
 
 
