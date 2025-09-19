@@ -6,7 +6,7 @@
 }
 
 .root-container{
-  flex-direction: row;
+  
   display: flex;
   flex-direction: row;
   
@@ -24,7 +24,17 @@
   cursor: not-allowed;
 }
 
+@media (max-width:786px) {
+  .root-container{
+  flex-direction: column;
+  display: flex;
+  margin-block: none;
+  
+  
 
+}
+  
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

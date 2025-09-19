@@ -4,7 +4,7 @@
 }
 
 .Main-container {
-    width: 600px;
+    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -17,12 +17,6 @@
 
 }
 
-.counter-row {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 20px;
-}
 
 .counter-card {
     background: #d0d021;
