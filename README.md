@@ -1,1 +1,1 @@
-https://counterapplicationassignment1.netlify.app/
+https://counterapplication1assignment.netlify.app/
