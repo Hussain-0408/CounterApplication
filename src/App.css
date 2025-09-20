@@ -13,6 +13,21 @@
 
 }
 
+.Root-header{
+  font-family: sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 2px solid red;
+  background-color: lightblue;
+  margin-top: 0px;
+  width: 100%
+}
+.Root-header h1{
+   align-items: center;
+   margin-top: 20px;
+}
 
 
 .btn-group button:hover {
@@ -29,11 +44,15 @@
   flex-direction: column;
   display: flex;
   margin-block: none;
-  
-  
 
 }
   
+
+@media(min-width:400px) and (max-width:786px) {
+  .Root-header{
+    width: 100%;
+  }
+}
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
